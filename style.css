@@ -6,14 +6,13 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #657;
-    background-image: url('https://source.unsplash.com/1600x900/?landscape');
     font-size: 120%;
     background-size: contain;
 }
-
 .card {
-    background-color: white;
-    opacity : 0.5;
+    background-image: url('https://source.unsplash.com/1600x900/?travel');
+    background-size: contain;
+    opacity : 1;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
@@ -75,7 +74,7 @@ input.search-bar{
     
 }
 .details{
-    font-weight: 800;
+    font-weight: bolder;
     font-size: larger;
 }
 .search .search-bar{
